@@ -1,0 +1,28 @@
+#root {
+  min-height: 100svh;
+}
+
+:root {
+  color: #e8eee7;
+  background: #0d1715;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+:root[data-theme='light'] {
+  color: #1c2b24;
+  background: #eef3ed;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: inherit;
+  color: inherit;
+  font-family: Georgia, 'Times New Roman', serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin: 0;
+}
